@@ -5,7 +5,7 @@
 
   $name = ucfirst(trim("avijit ram"));
   $username = "avijitram2013@gmail.com";   // write username here
-  $password = "12092002";   // write password here   and remember it because there is no way to recover.... be responsible lolas !!!
+  $password = "12092002";   // write password here 
 
   $hash = password_hash($password,PASSWORD_DEFAULT);
   
